@@ -1,0 +1,14 @@
+git config --global --unset user.name
+git config --global --unset user.email
+    git remote add <name> <url>
+
+git log
+git status -s
+git show
+git mv 
+
+git branch -M main
+git remote add origin https://github.com/gopicr42/git-status.git
+git push -u origin main
+
+note: after renaming or cd you must pull first the after push
