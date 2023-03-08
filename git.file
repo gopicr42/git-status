@@ -2,6 +2,7 @@ git config --global --unset user.name
 git config --global --unset user.email
     git remote add <name> <url>
 
+git diff
 git log
 git status -s
 git show
@@ -9,3 +10,5 @@ git show
 git branch -M main
 git remote add origin https://github.com/gopicr42/git-status.git
 git push -u origin main
+
+
